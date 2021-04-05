@@ -7,7 +7,7 @@
          @endforeach
 </ul>
 <br>
-<div><h1>&nbsp&nbsp&nbsp&nbsp&nbsp HiiiI I AM HERE {{$categoryName}} </h1>
+<div><h1>&nbsp&nbsp&nbsp&nbsp&nbsp {{$categoryName}} </h1>
        
     <div align="center"> <strong>sort by price:&nbsp&nbsp</strong> 
 <a href="{{route('shop.index',['category' => request()->category, 'sort' => 'low_high'])}}"> low to high</a>&nbsp&nbsp&nbsp&nbsp&nbsp
